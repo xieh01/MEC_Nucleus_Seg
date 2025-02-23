@@ -304,31 +304,6 @@ if __name__ == '__main__':
                     elif weight_setting == 9:
                         # no deep supervision
                         combined_weights = [0.0, 0.0, 0.0, 0.0, 1.0]
-                    elif weight_setting == 10:
-                        combined_weights = [0.05, 0.1, 0.15, 0.2, 1.0]
-                    elif weight_setting == 11:
-                        combined_weights = [0.1, 0.2, 0.3, 0.4, 1.0]
-                    elif weight_setting == 12:
-                        dice_iou_product = [(1 - dice) * (1 - iou) for dice, iou in zip(dice_scores, iou_scores)][:-1] # exclude the last one
-                        total_weight = sum(dice_iou_product)
-                        combined_weights = [i / total_weight for i in dice_iou_product]
-                        combined_weights.append(1.0) # add the last one
-                        print(f"[INFO] combined_weights:{combined_weights}")
-                    elif weight_setting == 13:
-                        dice_iou_product = [(1 - dice) * (1 - iou) for dice, iou in zip(dice_scores, iou_scores)][:-1] # exclude the last one
-                        total_weight = sum(dice_iou_product)
-                        combined_weights = [i / total_weight for i in dice_iou_product]
-                        depth_weights = [0.01, 0.05, 0.1, 0.2]
-                        # final weights equal to the product of combined_weights and depth_weights
-                        combined_weights = [d * c for d, c in zip(depth_weights, combined_weights)]
-                        combined_weights.append(1.0)
-                        print(f"[INFO] combined_weights:{combined_weights}")
-                    elif weight_setting == 14:
-                        combined_weights = [0.15, 0.25, 0.5, 0.75, 1.0]
-                    elif weight_setting == 15:
-                        combined_weights = [0.0, 0.0, 0.0, 0.75, 1.0]
-                    elif weight_setting == 16:
-                        combined_weights = [0.0, 0.0, 0.5, 0.75, 1.0]
 
 
                 # 加权计算分割损失
@@ -445,32 +420,6 @@ if __name__ == '__main__':
                         elif weight_setting == 9:
                             # no deep supervision
                             combined_weights = [0.0, 0.0, 0.0, 0.0, 1.0]
-                        elif weight_setting == 10:
-                            combined_weights = [0.05, 0.1, 0.15, 0.2, 1.0]
-                        elif weight_setting == 11:
-                            combined_weights = [0.1, 0.2, 0.3, 0.4, 1.0]
-                        elif weight_setting == 12:
-                            dice_iou_product = [(1 - dice) * (1 - iou) for dice, iou in zip(dice_scores, iou_scores)][:-1] # exclude the last one
-                            total_weight = sum(dice_iou_product)
-                            combined_weights = [i / total_weight for i in dice_iou_product]
-                            combined_weights.append(1.0) # add the last one
-                            print(f"[INFO] combined_weights:{combined_weights}")
-                        elif weight_setting == 13:
-                            dice_iou_product = [(1 - dice) * (1 - iou) for dice, iou in zip(dice_scores, iou_scores)][:-1] # exclude the last one
-                            total_weight = sum(dice_iou_product)
-                            combined_weights = [i / total_weight for i in dice_iou_product]
-                            depth_weights = [0.01, 0.05, 0.1, 0.2]
-                            # final weights equal to the product of combined_weights and depth_weights
-                            combined_weights = [d * c for d, c in zip(depth_weights, combined_weights)]
-                            combined_weights.append(1.0)
-                            print(f"[INFO] combined_weights:{combined_weights}")
-                        elif weight_setting == 14:
-                            combined_weights = [0.15, 0.25, 0.5, 0.75, 1.0]
-                        elif weight_setting == 15:
-                            combined_weights = [0.0, 0.0, 0.0, 0.75, 1.0]
-                        elif weight_setting == 16:
-                            combined_weights = [0.0, 0.0, 0.5, 0.75, 1.0]
-
                         # 加权计算分割损失
                         val_seg_loss = sum(w * loss_function(pred, y) for w, pred in zip(combined_weights, [map1_1, map1_2, map1_3, map1_4, logit_map]))
                     elif model_name == 'UNetPP':
