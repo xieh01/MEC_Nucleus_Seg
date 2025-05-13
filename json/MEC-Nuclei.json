@@ -1,0 +1,524 @@
+{
+    "description": "MEC-Nuclei (128, 128, 128)",
+    "labels": {
+        "0": "background",
+        "1": "nucleus"
+    },
+    "licence": "",
+    "modality": {
+        "0": "EM"
+    },
+    "name": "MEC-Nuclei",
+    "numTest": 36,
+    "numValidation": 12,
+    "numTraining": 77,
+    "reference": "",
+    "release": "",
+    "tensorImageSize": "3D",
+    "test": [
+        {
+            "image": "./data/MEC_Nuclei/test/image/0_0_0.nii.gz",
+            "label": "./data/MEC_Nuclei/test/mask/0_0_0.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/test/image/0_0_1.nii.gz",
+            "label": "./data/MEC_Nuclei/test/mask/0_0_1.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/test/image/0_0_2.nii.gz",
+            "label": "./data/MEC_Nuclei/test/mask/0_0_2.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/test/image/0_0_3.nii.gz",
+            "label": "./data/MEC_Nuclei/test/mask/0_0_3.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/test/image/0_0_4.nii.gz",
+            "label": "./data/MEC_Nuclei/test/mask/0_0_4.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/test/image/0_0_5.nii.gz",
+            "label": "./data/MEC_Nuclei/test/mask/0_0_5.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/test/image/0_1_0.nii.gz",
+            "label": "./data/MEC_Nuclei/test/mask/0_1_0.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/test/image/0_1_1.nii.gz",
+            "label": "./data/MEC_Nuclei/test/mask/0_1_1.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/test/image/0_1_2.nii.gz",
+            "label": "./data/MEC_Nuclei/test/mask/0_1_2.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/test/image/0_1_3.nii.gz",
+            "label": "./data/MEC_Nuclei/test/mask/0_1_3.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/test/image/0_1_4.nii.gz",
+            "label": "./data/MEC_Nuclei/test/mask/0_1_4.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/test/image/0_1_5.nii.gz",
+            "label": "./data/MEC_Nuclei/test/mask/0_1_5.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/test/image/0_2_0.nii.gz",
+            "label": "./data/MEC_Nuclei/test/mask/0_2_0.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/test/image/0_2_1.nii.gz",
+            "label": "./data/MEC_Nuclei/test/mask/0_2_1.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/test/image/0_2_2.nii.gz",
+            "label": "./data/MEC_Nuclei/test/mask/0_2_2.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/test/image/0_2_3.nii.gz",
+            "label": "./data/MEC_Nuclei/test/mask/0_2_3.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/test/image/0_2_4.nii.gz",
+            "label": "./data/MEC_Nuclei/test/mask/0_2_4.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/test/image/0_2_5.nii.gz",
+            "label": "./data/MEC_Nuclei/test/mask/0_2_5.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/test/image/0_3_0.nii.gz",
+            "label": "./data/MEC_Nuclei/test/mask/0_3_0.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/test/image/0_3_1.nii.gz",
+            "label": "./data/MEC_Nuclei/test/mask/0_3_1.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/test/image/0_3_2.nii.gz",
+            "label": "./data/MEC_Nuclei/test/mask/0_3_2.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/test/image/0_3_3.nii.gz",
+            "label": "./data/MEC_Nuclei/test/mask/0_3_3.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/test/image/0_3_4.nii.gz",
+            "label": "./data/MEC_Nuclei/test/mask/0_3_4.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/test/image/0_3_5.nii.gz",
+            "label": "./data/MEC_Nuclei/test/mask/0_3_5.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/test/image/0_4_0.nii.gz",
+            "label": "./data/MEC_Nuclei/test/mask/0_4_0.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/test/image/0_4_1.nii.gz",
+            "label": "./data/MEC_Nuclei/test/mask/0_4_1.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/test/image/0_4_2.nii.gz",
+            "label": "./data/MEC_Nuclei/test/mask/0_4_2.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/test/image/0_4_3.nii.gz",
+            "label": "./data/MEC_Nuclei/test/mask/0_4_3.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/test/image/0_4_4.nii.gz",
+            "label": "./data/MEC_Nuclei/test/mask/0_4_4.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/test/image/0_4_5.nii.gz",
+            "label": "./data/MEC_Nuclei/test/mask/0_4_5.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/test/image/0_5_0.nii.gz",
+            "label": "./data/MEC_Nuclei/test/mask/0_5_0.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/test/image/0_5_1.nii.gz",
+            "label": "./data/MEC_Nuclei/test/mask/0_5_1.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/test/image/0_5_2.nii.gz",
+            "label": "./data/MEC_Nuclei/test/mask/0_5_2.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/test/image/0_5_3.nii.gz",
+            "label": "./data/MEC_Nuclei/test/mask/0_5_3.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/test/image/0_5_4.nii.gz",
+            "label": "./data/MEC_Nuclei/test/mask/0_5_4.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/test/image/0_5_5.nii.gz",
+            "label": "./data/MEC_Nuclei/test/mask/0_5_5.nii.gz"
+        }
+    ],
+    "training": [
+        {
+            "image": "./data/MEC_Nuclei/train/image/0_0_0.nii.gz",
+            "label": "./data/MEC_Nuclei/train/mask/0_0_0.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/train/image/0_0_1.nii.gz",
+            "label": "./data/MEC_Nuclei/train/mask/0_0_1.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/train/image/0_0_10.nii.gz",
+            "label": "./data/MEC_Nuclei/train/mask/0_0_10.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/train/image/0_0_2.nii.gz",
+            "label": "./data/MEC_Nuclei/train/mask/0_0_2.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/train/image/0_0_3.nii.gz",
+            "label": "./data/MEC_Nuclei/train/mask/0_0_3.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/train/image/0_0_4.nii.gz",
+            "label": "./data/MEC_Nuclei/train/mask/0_0_4.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/train/image/0_0_5.nii.gz",
+            "label": "./data/MEC_Nuclei/train/mask/0_0_5.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/train/image/0_0_6.nii.gz",
+            "label": "./data/MEC_Nuclei/train/mask/0_0_6.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/train/image/0_0_7.nii.gz",
+            "label": "./data/MEC_Nuclei/train/mask/0_0_7.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/train/image/0_0_8.nii.gz",
+            "label": "./data/MEC_Nuclei/train/mask/0_0_8.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/train/image/0_0_9.nii.gz",
+            "label": "./data/MEC_Nuclei/train/mask/0_0_9.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/train/image/0_1_0.nii.gz",
+            "label": "./data/MEC_Nuclei/train/mask/0_1_0.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/train/image/0_1_1.nii.gz",
+            "label": "./data/MEC_Nuclei/train/mask/0_1_1.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/train/image/0_1_10.nii.gz",
+            "label": "./data/MEC_Nuclei/train/mask/0_1_10.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/train/image/0_1_2.nii.gz",
+            "label": "./data/MEC_Nuclei/train/mask/0_1_2.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/train/image/0_1_3.nii.gz",
+            "label": "./data/MEC_Nuclei/train/mask/0_1_3.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/train/image/0_1_4.nii.gz",
+            "label": "./data/MEC_Nuclei/train/mask/0_1_4.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/train/image/0_1_5.nii.gz",
+            "label": "./data/MEC_Nuclei/train/mask/0_1_5.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/train/image/0_1_6.nii.gz",
+            "label": "./data/MEC_Nuclei/train/mask/0_1_6.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/train/image/0_1_7.nii.gz",
+            "label": "./data/MEC_Nuclei/train/mask/0_1_7.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/train/image/0_1_8.nii.gz",
+            "label": "./data/MEC_Nuclei/train/mask/0_1_8.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/train/image/0_1_9.nii.gz",
+            "label": "./data/MEC_Nuclei/train/mask/0_1_9.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/train/image/0_2_0.nii.gz",
+            "label": "./data/MEC_Nuclei/train/mask/0_2_0.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/train/image/0_2_1.nii.gz",
+            "label": "./data/MEC_Nuclei/train/mask/0_2_1.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/train/image/0_2_10.nii.gz",
+            "label": "./data/MEC_Nuclei/train/mask/0_2_10.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/train/image/0_2_2.nii.gz",
+            "label": "./data/MEC_Nuclei/train/mask/0_2_2.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/train/image/0_2_3.nii.gz",
+            "label": "./data/MEC_Nuclei/train/mask/0_2_3.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/train/image/0_2_4.nii.gz",
+            "label": "./data/MEC_Nuclei/train/mask/0_2_4.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/train/image/0_2_5.nii.gz",
+            "label": "./data/MEC_Nuclei/train/mask/0_2_5.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/train/image/0_2_6.nii.gz",
+            "label": "./data/MEC_Nuclei/train/mask/0_2_6.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/train/image/0_2_7.nii.gz",
+            "label": "./data/MEC_Nuclei/train/mask/0_2_7.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/train/image/0_2_8.nii.gz",
+            "label": "./data/MEC_Nuclei/train/mask/0_2_8.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/train/image/0_2_9.nii.gz",
+            "label": "./data/MEC_Nuclei/train/mask/0_2_9.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/train/image/0_3_0.nii.gz",
+            "label": "./data/MEC_Nuclei/train/mask/0_3_0.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/train/image/0_3_1.nii.gz",
+            "label": "./data/MEC_Nuclei/train/mask/0_3_1.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/train/image/0_3_10.nii.gz",
+            "label": "./data/MEC_Nuclei/train/mask/0_3_10.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/train/image/0_3_2.nii.gz",
+            "label": "./data/MEC_Nuclei/train/mask/0_3_2.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/train/image/0_3_3.nii.gz",
+            "label": "./data/MEC_Nuclei/train/mask/0_3_3.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/train/image/0_3_4.nii.gz",
+            "label": "./data/MEC_Nuclei/train/mask/0_3_4.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/train/image/0_3_5.nii.gz",
+            "label": "./data/MEC_Nuclei/train/mask/0_3_5.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/train/image/0_3_6.nii.gz",
+            "label": "./data/MEC_Nuclei/train/mask/0_3_6.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/train/image/0_3_7.nii.gz",
+            "label": "./data/MEC_Nuclei/train/mask/0_3_7.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/train/image/0_3_8.nii.gz",
+            "label": "./data/MEC_Nuclei/train/mask/0_3_8.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/train/image/0_3_9.nii.gz",
+            "label": "./data/MEC_Nuclei/train/mask/0_3_9.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/train/image/0_4_0.nii.gz",
+            "label": "./data/MEC_Nuclei/train/mask/0_4_0.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/train/image/0_4_1.nii.gz",
+            "label": "./data/MEC_Nuclei/train/mask/0_4_1.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/train/image/0_4_10.nii.gz",
+            "label": "./data/MEC_Nuclei/train/mask/0_4_10.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/train/image/0_4_2.nii.gz",
+            "label": "./data/MEC_Nuclei/train/mask/0_4_2.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/train/image/0_4_3.nii.gz",
+            "label": "./data/MEC_Nuclei/train/mask/0_4_3.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/train/image/0_4_4.nii.gz",
+            "label": "./data/MEC_Nuclei/train/mask/0_4_4.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/train/image/0_4_5.nii.gz",
+            "label": "./data/MEC_Nuclei/train/mask/0_4_5.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/train/image/0_4_6.nii.gz",
+            "label": "./data/MEC_Nuclei/train/mask/0_4_6.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/train/image/0_4_7.nii.gz",
+            "label": "./data/MEC_Nuclei/train/mask/0_4_7.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/train/image/0_4_8.nii.gz",
+            "label": "./data/MEC_Nuclei/train/mask/0_4_8.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/train/image/0_4_9.nii.gz",
+            "label": "./data/MEC_Nuclei/train/mask/0_4_9.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/train/image/0_5_0.nii.gz",
+            "label": "./data/MEC_Nuclei/train/mask/0_5_0.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/train/image/0_5_1.nii.gz",
+            "label": "./data/MEC_Nuclei/train/mask/0_5_1.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/train/image/0_5_10.nii.gz",
+            "label": "./data/MEC_Nuclei/train/mask/0_5_10.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/train/image/0_5_2.nii.gz",
+            "label": "./data/MEC_Nuclei/train/mask/0_5_2.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/train/image/0_5_3.nii.gz",
+            "label": "./data/MEC_Nuclei/train/mask/0_5_3.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/train/image/0_5_4.nii.gz",
+            "label": "./data/MEC_Nuclei/train/mask/0_5_4.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/train/image/0_5_5.nii.gz",
+            "label": "./data/MEC_Nuclei/train/mask/0_5_5.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/train/image/0_5_6.nii.gz",
+            "label": "./data/MEC_Nuclei/train/mask/0_5_6.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/train/image/0_5_7.nii.gz",
+            "label": "./data/MEC_Nuclei/train/mask/0_5_7.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/train/image/0_5_8.nii.gz",
+            "label": "./data/MEC_Nuclei/train/mask/0_5_8.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/train/image/0_5_9.nii.gz",
+            "label": "./data/MEC_Nuclei/train/mask/0_5_9.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/train/image/0_6_0.nii.gz",
+            "label": "./data/MEC_Nuclei/train/mask/0_6_0.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/train/image/0_6_1.nii.gz",
+            "label": "./data/MEC_Nuclei/train/mask/0_6_1.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/train/image/0_6_10.nii.gz",
+            "label": "./data/MEC_Nuclei/train/mask/0_6_10.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/train/image/0_6_2.nii.gz",
+            "label": "./data/MEC_Nuclei/train/mask/0_6_2.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/train/image/0_6_3.nii.gz",
+            "label": "./data/MEC_Nuclei/train/mask/0_6_3.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/train/image/0_6_4.nii.gz",
+            "label": "./data/MEC_Nuclei/train/mask/0_6_4.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/train/image/0_6_5.nii.gz",
+            "label": "./data/MEC_Nuclei/train/mask/0_6_5.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/train/image/0_6_6.nii.gz",
+            "label": "./data/MEC_Nuclei/train/mask/0_6_6.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/train/image/0_6_7.nii.gz",
+            "label": "./data/MEC_Nuclei/train/mask/0_6_7.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/train/image/0_6_8.nii.gz",
+            "label": "./data/MEC_Nuclei/train/mask/0_6_8.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/train/image/0_6_9.nii.gz",
+            "label": "./data/MEC_Nuclei/train/mask/0_6_9.nii.gz"
+        }
+    ],
+    "validation": [
+        {
+            "image": "./data/MEC_Nuclei/val/image/0_0_0.nii.gz",
+            "label": "./data/MEC_Nuclei/val/mask/0_0_0.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/val/image/0_0_1.nii.gz",
+            "label": "./data/MEC_Nuclei/val/mask/0_0_1.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/val/image/0_0_2.nii.gz",
+            "label": "./data/MEC_Nuclei/val/mask/0_0_2.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/val/image/0_0_3.nii.gz",
+            "label": "./data/MEC_Nuclei/val/mask/0_0_3.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/val/image/0_0_4.nii.gz",
+            "label": "./data/MEC_Nuclei/val/mask/0_0_4.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/val/image/0_0_5.nii.gz",
+            "label": "./data/MEC_Nuclei/val/mask/0_0_5.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/val/image/0_1_0.nii.gz",
+            "label": "./data/MEC_Nuclei/val/mask/0_1_0.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/val/image/0_1_1.nii.gz",
+            "label": "./data/MEC_Nuclei/val/mask/0_1_1.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/val/image/0_1_2.nii.gz",
+            "label": "./data/MEC_Nuclei/val/mask/0_1_2.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/val/image/0_1_3.nii.gz",
+            "label": "./data/MEC_Nuclei/val/mask/0_1_3.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/val/image/0_1_4.nii.gz",
+            "label": "./data/MEC_Nuclei/val/mask/0_1_4.nii.gz"
+        },
+        {
+            "image": "./data/MEC_Nuclei/val/image/0_1_5.nii.gz",
+            "label": "./data/MEC_Nuclei/val/mask/0_1_5.nii.gz"
+        }
+    ]
+}
