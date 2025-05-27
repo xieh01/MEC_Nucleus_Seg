@@ -8,8 +8,8 @@ Clone this repository and install requirements.
 git clone https://github.com/xieh01/MEC_Nucleus_Seg
 cd MEC_Nucleus_Seg
 
-conda create -n seg python=3.11
-conda activate seg
+conda create -n nuc_seg python=3.11
+conda activate nuc_seg
 
 pip install -r requirements.txt
 ```

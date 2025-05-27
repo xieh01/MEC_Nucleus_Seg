@@ -36,6 +36,7 @@ if model_name == 'SwinUNETR':
             img_size=(128,128,128),
             in_channels=1,
             out_channels=2,
+            use_v2 = True
         ).to(device)
 elif model_name == 'SwinDDF':
     model = SwinDDF(
@@ -78,14 +79,13 @@ else:
     model.load_state_dict(torch.load(ckpt_path, weights_only=True))
 print(f"[INFO] Model loaded from {ckpt_path}")
 
-
 patch_size = (128, 128, 128)
 step = 96
 
 print("Loading images...")
 images = read_images_to_volume(images_dir)
 
-mask = sliding_window_infer(model, images / 255, patch_size, step, use_tta=False, deep_supervision=True, out_depth_index=0)
+mask = sliding_window_infer(model, images / 255, patch_size, step)
 
 print("saving result...")
 save_h5(mask, os.path.join(output_dir, output_fname))
